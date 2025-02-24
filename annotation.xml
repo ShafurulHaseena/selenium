@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
   <parameter name="login" value="Welcome"/>
   <parameter name="logout" value="Come back"/>
-  <parameter name="signup" value="Join Us"/>
+  <parameter name="signup" value="Join Us for Trip"/>
     <classes>
       <class name="com.tests.Annotations"/>
     </classes>
