@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Adactin Hotel">
+<parameter name="browser" value ="chrome"/>
+  <test thread-count="5" name="Release 1">
+  
+  <parameter name="url" value ="https://adactinhotelapp.com/index.php"/>
+ 
+  
+    <classes>
+     <parameter name="username" value ="shafurul"/>
+  <parameter name="password" value ="0FSY4J"/>
+      <class name="tests.TC01_ValidateLogin"/>
+    </classes>
+  </test> <!-- Release 1 -->
+</suite> <!-- Adactin Hotel -->
